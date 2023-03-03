@@ -1,0 +1,74 @@
+{
+  "elektronikprodukter": [
+    {
+      "namn": "Apple iPhone 13",
+      "produktnummer": "12345",
+      "pris": 10999,
+      "beskrivning": "Den senaste versionen av Apples populära smartphone, med förbättrad kamera och batteritid.",
+      "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pink-select-2021?wid=940&hei=1112&fmt=png-alpha&.v=1645572315935"
+    },
+    {
+      "namn": "Samsung Galaxy S21",
+      "produktnummer": "23456",
+      "pris": 8999,
+      "beskrivning": "En högpresterande Android-telefon med en stor skärm och 5G-stöd.",
+      "img": "https://images.samsung.com/is/image/samsung/assets/se/2201/preorder/1_image_carousel/4_product_image/S21FE_Carousel_ProductImage_Lavender_MO.jpg"
+    },
+    {
+      "namn": "Sony PlayStation 5",
+      "produktnummer": "34567",
+      "pris": 5999,
+      "beskrivning": "Nästa generations spelkonsol från Sony, med en snabb SSD och stöd för högupplöst grafik.",
+      "img": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
+    },
+    {
+      "namn": "Apple MacBook Pro",
+      "produktnummer": "45678",
+      "pris": 15999,
+      "beskrivning": "En kraftfull bärbar dator med en Retina-skärm och upp till 10 timmars batteritid.",
+      "img": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021.jpg.og.jpg?202302092100"
+    },
+    {
+      "namn": "Samsung QLED TV",
+      "produktnummer": "56789",
+      "pris": 12999,
+      "beskrivning": "En toppmodell av Samsungs smarta TV med en stor 4K-skärm och HDR-stöd.",
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/se/qe65q70batxxc/gallery/se-qled-tv-qe65q70batxxc-front-gray-532276205?$650_519_PNG$"
+    },
+    {
+      "namn": "Bose QuietComfort 35 II",
+      "produktnummer": "67890",
+      "pris": 2999,
+      "beskrivning": "Trådlösa hörlurar med aktiv brusreducering och upp till 20 timmars batteritid.",
+      "img": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35_ii/product_silo_images/qc35_ii_le_midnight_blue_hero.PNG/_jcr_content/renditions/cq5dam.web.1280.1280.png"
+    },
+    {
+      "namn": "Fitbit Charge 5",
+      "produktnummer": "78901",
+      "pris": 1499,
+      "beskrivning": "En avancerad fitness-tracker med inbyggd GPS och stöd för stresshantering.",
+      "img": "https://www.elgiganten.se/image/dv_web_D180001002817126/340658/fitbit-charge-5-aktivitetsarmband-blackgraphite--pdp_zoom-3000--pdp_main-540.jpg"
+    },
+    {
+      "namn": "Amazon Echo Dot",
+      "produktnummer": "89012",
+      "pris": 499,
+      "beskrivning": "En smart högtalare med Alexa-röstassistent och stöd för att styra smarta hem-enheter.",
+      "img": "https://m.media-amazon.com/images/I/51fsVTWWlPL._AC_SY350_.jpg"
+    },
+    {
+      "namn": "Razer DeathAdder Elite",
+      "produktnummer": "90123",
+      "pris": 699,
+      "beskrivning": "En högpresterande spelmus med optisk sensor och sju programmerbara knappar.",
+      "img": "https://www.pricerunner.se/product/1200x630/1857015309/Razer-DeathAdder-Elite.jpg"
+    },
+    {
+      "namn": "Logitech C920 HD Pro Webcam",
+      "produktnummer": "01234",
+      "pris": 999,
+      "beskrivning": "En högkvalitativ webbkamera för videochatt och livestreaming med Full HD-upplösning.",
+      "img": "https://www.pricerunner.se/product/1200x630/1553959037/Logitech-HD-Pro-Webcam-C920.jpg"
+    }
+  ]
+}

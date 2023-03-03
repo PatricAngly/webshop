@@ -1,5 +1,11 @@
+import UserPrefsProvider from "./provider/UserPrefsProvider";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <UserPrefsProvider></UserPrefsProvider>
+    </>
+  );
 }
 
 export default App;

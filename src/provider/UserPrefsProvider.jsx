@@ -2,12 +2,12 @@ import { useState } from "react";
 import PrefsContext from "../context/PrefsContext";
 
 const UserPrefsProvider = ({ children }) => {
-  const [searchProduct, setSearchProduct] = useState();
+  const [result, setResult] = useState([]);
   return (
     <PrefsContext.Provider
       value={{
-        searchedProducts: searchProduct,
-        setSearchProduct: setSearchProduct,
+        result: result,
+        setResult: setResult,
       }}
     >
       {children}

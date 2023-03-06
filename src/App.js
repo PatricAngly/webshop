@@ -1,9 +1,12 @@
+import SearchComponent from "./Components/Search";
 import UserPrefsProvider from "./provider/UserPrefsProvider";
 
 function App() {
   return (
     <>
-      <UserPrefsProvider></UserPrefsProvider>
+      <UserPrefsProvider>
+        <SearchComponent />
+      </UserPrefsProvider>
     </>
   );
 }

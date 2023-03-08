@@ -50,7 +50,7 @@ const UserPrefsProvider = ({ children }) => {
       value={{
         result: result,
         setResult: setResult,
-        cart: cart.products,
+        cart: cart,
         dispatch: dispatch,
       }}
     >

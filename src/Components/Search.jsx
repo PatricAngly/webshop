@@ -4,15 +4,16 @@ import { useState } from "react";
 import SearchResultComponent from "./SearchResult";
 
 function SearchComponent() {
-  const userPrefs = useContext(PrefsContext);
-  const [searchTerm, setSearchTerm] = useState("");
+  const userPrefs = useContext(PrefsContext); // to use or update global states
+  const [searchTerm, setSearchTerm] = useState(""); // sate for search string
   function searchResult() {
-    const filteredProducts = userPrefs.result.filter(
+    // filter a new array with products that matches/incluedes the search term string
+    const filteredProducts = userPrefs.products.filter(
       (item) =>
         item.namn.toLowerCase().includes(searchTerm.toLowerCase()) ||
         item.beskrivning.toLowerCase().includes(searchTerm.toLowerCase())
     );
-    userPrefs.setResult(filteredProducts);
+    userPrefs.setResult(filteredProducts); // updates the result state with a filtered array based on search
   }
 
   return (

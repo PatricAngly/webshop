@@ -7,15 +7,21 @@ function CartComponent() {
   function removeFromCart(productNr) {
     const updatedProducts = userPrefs.cart.products
       .map((item) => {
+        // map through products in cart
         if (item.produktnummer === productNr) {
-          return { ...item, quantity: item.quantity - 1 };
+          return { ...item, quantity: item.quantity - 1 }; // return a copy of the products with the quantity of removed item -1
         }
         return item;
       })
-      .filter((item) => item.quantity > 0); // filter out all objects with quantity greater then 0
+      .filter((item) => item.quantity > 0); // filter a new array with all objects that has quantity greater then 0
+    const updateTotal = updatedProducts.reduce(
+      // recalculates the whole cart
+      (total, product) => total + product.pris * product.quantity,
+      0
+    );
     userPrefs.dispatch({
-      type: "REMOVE_FROM_CART",
-      payload: { products: updatedProducts },
+      type: "UPDATE_CART",
+      payload: { products: updatedProducts, total: updateTotal },
     });
   }
 
